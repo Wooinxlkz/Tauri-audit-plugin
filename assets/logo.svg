@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="tauri-audit">
+  <rect width="512" height="512" rx="112" fill="#0A0D12"/>
+  <g fill="none" stroke="#E6EDF3" stroke-width="16" stroke-linecap="square">
+    <path d="M132 196V132H196"/>
+    <path d="M316 132H380V196"/>
+    <path d="M380 316V380H316"/>
+    <path d="M196 380H132V316"/>
+  </g>
+  <path d="M132 256H380" stroke="#7DD3FC" stroke-width="6" stroke-linecap="square"/>
+  <path d="M256 214L298 256L256 298L214 256Z" fill="#0A0D12" stroke="#7DD3FC" stroke-width="10" stroke-linejoin="miter"/>
+  <rect x="246" y="246" width="20" height="20" fill="#7DD3FC" transform="rotate(45 256 256)"/>
+</svg>

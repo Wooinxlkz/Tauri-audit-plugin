@@ -1,0 +1,15 @@
+{
+  "productName": "good-app",
+  "identifier": "com.example.goodapp",
+  "app": {
+    "windows": [{ "label": "main", "title": "good" }],
+    "security": {
+      "csp": "default-src 'self'; connect-src ipc: http://ipc.localhost; img-src 'self' data:; style-src 'self' 'unsafe-inline'",
+      "freezePrototype": true,
+      "pattern": { "use": "isolation" }
+    }
+  },
+  "plugins": {
+    "updater": { "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IHRlc3Q=", "endpoints": ["https://updates.example.com/{{target}}"] }
+  }
+}

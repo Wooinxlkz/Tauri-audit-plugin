@@ -1,0 +1,14 @@
+{
+  "identifier": "default",
+  "windows": ["*"],
+  "remote": { "urls": ["https://*.example.com"] },
+  "permissions": [
+    "core:default",
+    "fs:allow-home-write-recursive",
+    { "identifier": "fs:allow-write-file", "allow": [{ "path": "$HOME/**" }] },
+    { "identifier": "shell:allow-execute", "allow": [{ "name": "sh", "cmd": "sh", "args": true }] },
+    { "identifier": "http:default", "allow": [{ "url": "https://*" }] },
+    { "identifier": "opener:allow-open-path", "allow": [{ "path": "**" }] },
+    "dialog:default"
+  ]
+}

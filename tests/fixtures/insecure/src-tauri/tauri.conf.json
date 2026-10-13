@@ -1,0 +1,18 @@
+{
+  // insecure on purpose: every rule family should fire
+  "productName": "bad-app",
+  "identifier": "com.tauri.dev",
+  "app": {
+    "withGlobalTauri": true,
+    "macOSPrivateApi": true,
+    "windows": [{ "label": "main", "url": "https://example.com" }],
+    "security": {
+      "csp": "default-src *; script-src 'self' 'unsafe-eval' 'unsafe-inline' https: cdn.jsdelivr.net; connect-src http://api.example.com",
+      "dangerousDisableAssetCspModification": true,
+      "assetProtocol": { "enable": true, "scope": ["**"] },
+    }
+  },
+  "plugins": {
+    "updater": { "endpoints": ["http://updates.example.com/{{target}}"], "dangerousInsecureTransportProtocol": true }
+  }
+}

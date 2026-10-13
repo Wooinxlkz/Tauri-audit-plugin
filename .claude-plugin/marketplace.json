@@ -1,0 +1,14 @@
+{
+  "name": "tauri-audit",
+  "owner": {
+    "name": "Karim",
+    "url": "https://github.com/Wooinxlkz"
+  },
+  "plugins": [
+    {
+      "name": "tauri-audit",
+      "source": "./",
+      "description": "Security audit and safe hardening for Tauri apps."
+    }
+  ]
+}

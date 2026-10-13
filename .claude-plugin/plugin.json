@@ -1,0 +1,23 @@
+{
+  "name": "tauri-audit",
+  "version": "0.2.0",
+  "description": "Security audit for Tauri apps: a deterministic checker with attack-path analysis, a grade, HTML/SARIF reports and CI baselines, plus a skill that triages and fixes without breaking the app.",
+  "author": {
+    "name": "Karim",
+    "url": "https://github.com/Wooinxlkz"
+  },
+  "homepage": "https://github.com/Wooinxlkz/Tauri-audit-plugin",
+  "repository": "https://github.com/Wooinxlkz/Tauri-audit-plugin",
+  "license": "MIT",
+  "keywords": [
+    "tauri",
+    "security",
+    "audit",
+    "csp",
+    "capabilities",
+    "rust",
+    "desktop",
+    "sarif",
+    "attack-paths"
+  ]
+}
